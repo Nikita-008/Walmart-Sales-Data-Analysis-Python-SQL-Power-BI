@@ -1,19 +1,26 @@
-# Walmart Power BI Dashboard
+The goal of this project is to analyze Walmart’s sales data to uncover trends, customer behavior patterns, and sales performance metrics.
+It demonstrates the full analytics workflow:
 
-## Overview
-This project analyzes Walmart purchase behavior using a dataset of 550,000+ transactions.  
-Created in Power BI, it includes interactive visuals for:
+SQL — Data extraction and preprocessing from the raw dataset.
 
-- Age, Gender, City Category filters
-- Top 10 product categories by sales
-- Sales by year and season
-- Stay duration insights
+Python — Data cleaning, transformation, and exploratory data analysis (EDA) using Pandas, NumPy, and Matplotlib.
 
-## Files
-- `walmart_dashboard.pbix` → Power BI dashboard file
-- `walmart_dataset.csv` → Raw dataset (public)
-- `README.md` → Project description
+Power BI — Interactive dashboard creation with slicers, filters, and Top N visualizations for decision-making
 
-## How to View
-Download `walmart_dashboard.pbix` and open in [Power BI Desktop](https://powerbi.microsoft.com/desktop).
+📈 Key Features
+Customer demographics analysis (age, gender, city category, stay duration).
 
+Product category-wise sales trends and top-selling products.
+
+Seasonal and time-based sales patterns.
+
+Top N filters for quick identification of best and worst performers.
+
+Fully interactive Power BI dashboard for stakeholders.
+
+🛠 Tools & Technologies
+SQL (MySQL) for data querying and aggregation.
+
+Python (Pandas, NumPy, Matplotlib) for EDA and data wrangling.
+
+Power BI for interactive visualization and dashboarding.
